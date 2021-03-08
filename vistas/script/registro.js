@@ -40,6 +40,23 @@ function revisarContraseña(){
     }
 }
 
+function limpiar(){
+    $("#idusuario").val("");
+    $("#nombre").val(" ");
+    $("#tipodocumento").val(" ");
+    $("#numdocumento").val(" ");
+    $("#telefono").val(" ");
+    $("#email").val(" ");
+    $("#login").val(" ");
+    $("#clave").val(" ");
+}
+
+function cancelarform(){
+    
+    limpiar();
+    location.href="../vistas/login.php";
+
+}
 
 
 

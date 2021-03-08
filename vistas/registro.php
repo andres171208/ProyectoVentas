@@ -37,7 +37,7 @@
         <input class="controles" type="password" id="clave2" name="clave2" minlength="6" maxlength="8" placeholder="Confirmar Contraseña" required="">
         <div id="contraseñasiguales"></div>
         <button class="boton" type="submit" id="Registrar">Registrar</button>
-        <button class="boton1" type="button" id="Cancelar">Cancelar</button>
+        <button class="boton1" type="button" id="Cancelar" onclick="cancelarform()" >Cancelar</button>
         
         <p><a href="login.php">¿YA TIENES UNA CUENTA?</a></p>
         
