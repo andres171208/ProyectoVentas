@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form{
+    width: 400px;
+    background: #a9bfec;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: #ffffff;
+    box-shadow: 7px 13px 37px #000;
+}
+body{
+background-image:  url(../../files/login_registro/gestion-comercial-internet.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+.controles{
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'calibri';
+    font-size: 18px;
+   
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+}
+img{
+    width:250px;
+    height:150px;
+}
+
+p{
+    text-align: center;
+}
+a{
+    color: #000;
+}
+
+.form .boton{
+    width: 100%;
+    background: yellowgreen;
+    border: none;
+    padding: 12px;
+    margin: 16px 0;
+    color: white;
+    font-size: 16px;
+}
+.form .boton1{
+    width: 100%;
+    background: red;
+    border: none;
+    padding: 12px;
+    margin: 16px 0;
+    color: white;
+    font-size: 16px;
+}
+
+div{
+    color:#000;
+}
+
