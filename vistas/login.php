@@ -17,13 +17,9 @@
           <div align="center">
             <img src="../files/login_registro/logo.png" alt=""/>
             </div>
-    <form class="register-form">
-      <input type="text" placeholder="name"/>
-      <input type="password" placeholder="password"/>
-      <input type="text" placeholder="email address"/>
-      <button>create</button>
-      <p class="message">Already registered? <a href="#">Sign In</a></p>
-    </form>
+          <p>
+              
+          </p>
     <form class="login-form" id="frmAcceso">
       <div class="form-group has-feedback">
       <input type="text" id="logina" placeholder="username"/>

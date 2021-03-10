@@ -17,29 +17,30 @@
                 <img src="../files/login_registro/logo.png" alt=""/>
             </p>
             
-            <input class="controles" type="text" id="nombre" name="nombre" placeholder="Nombre" required="">
+            <input class="controles" type="text" id="nombre" name="nombre" placeholder="Nombre" required="Debe llenar todos los campos">
          <div class="controles">
-         <select class="form-control select-picker" name="tipo_documento" id="tipo_documento">
+             <select class="form-control select-picker" name="tipo_documento" id="tipo_documento" required="Debe seleccionar una opcion">
              <option value=" ">Seleccione su tipo de documento...</option>
              <option value="DNI">DNI</option>
              <option value="RUC">RUC</option>
              <option value="CEDULA">CEDULA</option>
          </select>
      </div>
-            <input class="controles" type="number" id="numdocumento" name="numdocumento" minlength="10" maxlength="13" placeholder="N° Documento" required="">
+            <input class="controles" type="number" id="numdocumento" name="numdocumento" minlength="10" maxlength="13" placeholder="N° Documento" required="Debe llenar todos los campos">
         <div id="repetircedula"></div>
-        <input class="controles" type="number" id="telefono" name="telefono" minlength="9" maxlength="10" placeholder="Telefono" required="">
+        <input class="controles" type="number" id="telefono" name="telefono" minlength="9" maxlength="10" placeholder="Telefono" required="Debe llenar todos los campos">
         <input class="controles" type="email" id="email" name="email" placeholder="Email">
         <div id="repetiremail"></div>
-        <input class="controles" type="text" id="username" name="username" placeholder="Username" required="">
+        <input class="controles" type="text" id="username" name="username" placeholder="Username" required="Debe llenar todos los campos">
         <div id="repetirusuario"></div>
-        <input class="controles" type="password" id="clave" name="clave" minlength="6" maxlength="8" placeholder="Contraseña" required="">
-        <input class="controles" type="password" id="clave2" name="clave2" minlength="6" maxlength="8" placeholder="Confirmar Contraseña" required="">
+        <input class="controles" type="password" id="clave" name="clave" minlength="6" maxlength="8" placeholder="Contraseña" required="Debe llenar todos los campos">
+        <input class="controles" type="password" id="clave2" name="clave2" minlength="6" maxlength="8" placeholder="Confirmar Contraseña" required="Debe confirmar su contraseña">
         <div id="contraseñasiguales"></div>
         <button class="boton" type="submit" id="Registrar">Registrar</button>
         <button class="boton1" type="button" id="Cancelar" onclick="cancelarform()" >Cancelar</button>
         
         <p><a href="login.php">¿YA TIENES UNA CUENTA?</a></p>
+        <p><a href="../index.html">VOLVER A VISTA PRINCIPAL</a></p>
         
         </form>
     </section>

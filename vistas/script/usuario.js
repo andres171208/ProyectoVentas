@@ -105,7 +105,7 @@ function guardaryeditar(e)
 	    success: function(datos)
 	    {                    
 	       confirm(datos);
-              window.location.href=('../index.php');
+              window.location.href=('../login.php');
 	          mostrarform(false);
 	          tabla.ajax.reload();
 	    }

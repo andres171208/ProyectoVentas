@@ -40,6 +40,7 @@ function revisarContraseña(){
     }
 }
 
+
 function limpiar(){
     $("#idusuario").val("");
     $("#nombre").val(" ");

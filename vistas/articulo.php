@@ -82,7 +82,7 @@ if ($_SESSION['almacen']==1)
                             <input type="text" class="form-control" name="codigo" id="codigo" placeholder="Código Barras">
                             <button class="btn btn-success" type="button" onclick="generarbarcode()">Generar</button>
                             <button class="btn btn-info" type="button" onclick="imprimir()">Imprimir</button>
-                            <div id="print">
+                            <div>
                               <svg id="barcode"></svg>
                             </div>
                           </div>
